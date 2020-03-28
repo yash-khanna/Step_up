@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.kaydeeinternational.stepup1.myDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="My Details"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:Arun Jaiswal Shah"
+        android:textSize="30sp"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender :Male"
+        android:textSize="30sp"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 9999999999"
+        android:textSize="30sp"
+        android:layout_marginTop="210dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight :78 KG"
+        android:textSize="30sp"
+        android:layout_marginTop="260dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: yahoo@gmail.com"
+        android:textSize="30sp"
+        android:layout_marginTop="310dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Hours:9 hours"
+        android:textSize="30sp"
+        android:layout_marginTop="410dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diet : Keto Diet/ Protein"
+        android:textSize="30sp"
+        android:layout_marginTop="360dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age :45 Years"
+        android:textSize="30sp"
+        android:layout_marginTop="460dp"
+        android:textStyle="bold|italic"
+        android:background="@color/yolo3"/>
+
+
+    <GridLayout
+        android:id="@+id/y1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo1"
+            android:text="Progress"
+            android:textStyle="bold"
+            android:onClick="main1"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo3"
+            android:text="COINS"
+            android:onClick="coin"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo4"
+            android:onClick="market"
+            android:text="Market"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo"
+            android:onClick="my_details"
+            android:text="MyDetails"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

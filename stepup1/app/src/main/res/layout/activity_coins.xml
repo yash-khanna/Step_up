@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaydeeinternational.stepup1.coins"
+    android:background="@color/colorPrimaryDark">
+
+    <GridLayout
+        android:id="@+id/y1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo1"
+            android:onClick="main1"
+            android:text="Progress"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo3"
+            android:text="COINS"
+            android:onClick="coin"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo4"
+            android:onClick="market"
+            android:text="Market"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/yolo"
+            android:onClick="my_details"
+            android:text="MyDetails"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coins"
+        android:textStyle="bold|italic|normal"
+        android:layout_marginTop="80dp"
+        android:textSize="130sp"
+        android:background="@color/yolo4"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textStyle="bold|italic|normal"
+        android:layout_marginTop="360dp"
+        android:textSize="60sp"
+        android:background="@color/yolo4"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

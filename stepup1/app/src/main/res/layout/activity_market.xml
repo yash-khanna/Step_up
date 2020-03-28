@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yolo"
+    tools:context="com.kaydeeinternational.stepup1.myDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/iphone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Iphone 11 Pro Max"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="Coins to Pay : 150000"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            app:srcCompat="@drawable/bose" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:text="Bose Headphones"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:text="Coins to Pay : 45000"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="620dp"
+            app:srcCompat="@drawable/fortuner" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:text="Fortuner"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="830dp"
+            android:text="Coins to Pay : 1500000000"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:background="@color/yolo3"
+            android:layout_centerHorizontal="true" />
+
+
+        <GridLayout
+            android:id="@+id/y1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:background="@color/yolo1"
+                android:text="Progress"
+                android:onClick="main1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:background="@color/yolo3"
+                android:text="COINS"
+                android:onClick="coin"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:background="@color/yolo4"
+                android:text="Market"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:background="@color/yolo"
+                android:onClick="my_details"
+                android:text="MyDetails"
+                android:textStyle="bold" />
+
+        </GridLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
